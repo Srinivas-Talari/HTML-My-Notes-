@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    HyperText Markup Language
+    
+    Markup language is defined for describing and presenting text in web page
+    <!-- Headings-->
+    <h1>I am heading-1</h1>
+    <h2>I am heading-2</h2>
+    <h3>I am heading-3</h3>
+    <h4>I am heading-4</h4>
+    <h5>I am heading-5</h5>
+    <h6>I am heading-6</h6>
+
+    <!-- Paragraph-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum aliquam illum tenetur eaque! Beatae in consequatur labore corporis tenetur eaque eum vel! Rerum dolores, itaque velit libero molestias quam. Exercitationem, inventore ipsa magni aliquam dolore at officiis dicta, animi in minus repellendus porro temporibus unde, facere libero nostrum possimus.</p>
+
+    <!-- Links -->
+
+    <a href="https://www.google.com" target="_blank">Google</a>  <!--href = hypertext reference and target = Where the link should be re-direct in same page or diff page-->
+
+    <!-- images-->
+
+    <img src="images/cat.jpeg" alt="cat-img" width="200px" height="170px"> 
+
+    <!-- Image as a link -->
+
+    <a href="https://www.linkedin.com"><img src="/images/dog.jpeg" alt="dog-img"></a>
+
+    <!-- Comments -->
+
+    Represented as '<!---->'
+
+    <!-- Relative Link and Absolute Link -->
+
+    Relative Link :A link that refers to a file or page within the same website(eg:-submit.html)
+    Absolute Link : A link that includes the full URL, pointing to an external or internal resource(eg:https://www.google.com)
+
+    <!-- Text-Formats -->
+
+    Lorem ipsum dolor, sit amet <b>consectetur</b> adipisicing elit. Vel <i>natus</i> <em>sit</em>, <u>eveniet</u> nihil sunt enim <mark>repudiandae</mark> velit <del>quod</del> nostrum <ins>Seenu</ins> a rerum, <small>eligendi</small> <big>totam</big>. <sub>Facilis</sub> <sup>perferendis</sup>, nihil ipsum amet iusto laborum voluptas harum hic culpa blanditiis nisi <s>rerum</s> neque pariatur porro et soluta dolore modi vel? Nostrum dolores repudiandae eos officiis.
+
+    <!-- Page Layout -->
+
+    <Header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </Header>
+
+    <main>
+        <section>
+            <h1>Qualifications</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat neque ab maxime similique animi necessitatibus magni qui assumenda, placeat aliquam illum eveniet esse hic illo debitis unde facilis, repellendus atque saepe iure doloremque architecto iusto obcaecati vero. Quam voluptates doloremque eos ipsum aperiam, quas ex, libero deserunt impedit possimus repudiandae?</p>
+        </section>
+        <article>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quidem velit quae doloribus est laudantium, doloremque at omnis id voluptate a illum tenetur magnam aspernatur accusamus ea quod maiores neque commodi odit. Voluptatum quam, quidem ducimus quos dolore praesentium incidunt dicta, adipisci, laudantium magni unde nisi enim maiores quaerat? Consequuntur architecto voluptates delectus labore veniam eligendi id officiis asperiores perspiciatis illum eius nulla dolorum harum accusantium praesentium facilis, ad recusandae dicta iusto voluptate doloremque possimus! Voluptas eos hic, harum libero excepturi accusamus nemo voluptatum quia! Tempore ipsam eius rem tempora eaque! Deserunt nihil repudiandae praesentium possimus! Explicabo culpa dolores voluptatum.</p>
+        </article>
+        <aside>Which is not related to main content like side nav, adds part etc.</aside>
+    </main>
+    <footer>
+        Contact us for further information Ph.no:-1234567890
+    </footer>
+
+    <!-- Semantic and non-semantic tags -->
+
+    Semantic : which has a certain meaning for content and tag name(eg: header:means only header content contains)
+
+    non-semantic tags : which hasn't have any certain meaning for the content and tag used for the content
+
+    <!-- div and span -->
+
+    Both are acts like a containers which holds multiple elements but main diff is div takes whole ele width in web page and span takes only ele width in web page
+
+    <!-- Lists -->
+
+    <!-- Orderlist type = ['a','A','i','I'] -->
+
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ol>
+
+    <!-- Unorderlist type = ['circle','sqaure','disc'] -->
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+    <!-- Description list -->
+
+    <dl>
+        <dt>Coffee:
+            <dd>I love Coffee tea as well as </dd>
+        </dt>
+    </dl>
+
+    <!-- Tables -->
+
+    <table border="1px" style="border-collapse: collapse;">
+        <caption>Bio-Data</caption>
+
+        <colgroup>
+            <col span="3" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Ph.no</th>
+        </tr>
+        <tr>
+            <td>Srinivas</td>
+            <td>25</td>
+            <td>1234567890</td>
+        </tr>
+        <tr>
+            <td>Talari</td>
+            <td>35</td>
+            <td>1234567890</td>
+        </tr>
+        <tr>
+            <td>Seenu</td>
+            <td>45</td>
+            <td>1234567890</td>
+        </tr>
+    </table>
+
+    <!-- Forms -->
+
+    <form action="#">
+        <label>Name:
+            <input type="text"><br>
+        </label>
+        <label>Password:
+            <input type="password"><br>
+        </label>
+    </form>
+
+    input :- User Input
+    Label :- Text User can see on page which helps what kind of input he has to provide
+    type :- type of input
+    required :- mandatory
+    autofocus :- focus on the ele when page refresh
+    novalidate :- submit without validation
+    disabled :- can't manipulate (almost similar to readonly)
+    input types : text,number,email,date,time,range,password,color,radio,check,button etc..
+
+    <!-- Dropdown -->
+
+    <select name="#" id="#">
+        <option value="#">Goa</option>
+        <option value="#">Goa</option>
+        <option value="#">Goa</option>
+        <option value="#">Goa</option>
+        <option value="#">Goa</option>
+    </select>
+
+    <!-- dataList -->
+
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+
+    <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+</datalist>
+
+<textarea name="#" id="#" rows="10" cols="10">
+    Typing.......
+</textarea>
+
+<!-- Multi-media -->
+
+<audio src="#" controls></audio>
+<video src="#" controls>v</video>
+<iframe src="#" frameborder="0"></iframe>
+
+<!-- Graphics -->
+
+<p>Used to draw graphics in website</p>
+
+<canvas id="myCanvas" width="200" height="100"></canvas> <!--via JavaScript.-->
+
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  </svg>  <!--which can be directly embedded in HTML pages.-->
+
+<!--Storage-->
+
+Local-Storage : which can store a value even after web page close 
+
+Session-Storage : which can store a value until sessions ends(it means if session closed in browser the data gets erased)
+
+<!-- br and hr -->
+
+br :- break the line and hr :- gives a horizontal line
+</body>
+</html>
